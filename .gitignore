@@ -1,0 +1,9 @@
+# dependencies
+/node_modules
+
+# logs and locks
+npm-debug.log*
+/package-lock.json
+
+# js
+**/*.js

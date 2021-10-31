@@ -100,6 +100,7 @@ class DynamicArray<T> {
                 return i;
             }
         }
+        return -1;
     }
 
     contains(obj: T): boolean {

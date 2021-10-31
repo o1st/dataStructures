@@ -1,0 +1,23 @@
+{
+  "name": "atastructures",
+  "version": "1.0.0",
+  "description": "Simplest data structure",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/o1st/dataStructures.git"
+  },
+  "keywords": [],
+  "author": "Ostap Fedchenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/o1st/dataStructures/issues"
+  },
+  "homepage": "https://github.com/o1st/dataStructures#readme",
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  }
+}
