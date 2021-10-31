@@ -16,7 +16,7 @@ class ListNode<T> {
   }
 
   toString() {
-    return this.data.toString();
+    return Object.toString.call(this.data);
   }
 }
 
