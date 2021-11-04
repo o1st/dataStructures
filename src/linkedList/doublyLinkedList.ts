@@ -20,7 +20,7 @@ class ListNode<T> {
   }
 }
 
-class DoublyLinkedList<T> {
+export class DoublyLinkedList<T> {
   private inner_size: number = 0;
   private head: Nullable<ListNode<T>> = null;
   private tail: Nullable<ListNode<T>> = null;
@@ -109,14 +109,14 @@ class DoublyLinkedList<T> {
     this.inner_size++;
   }
 
-  peakFirst(): T {
+  peekFirst(): T {
     if (this.isEmpty()) {
       throw new ReferenceError("Empty list");
     }
     return this.head?.data as T;
   }
 
-  peakLast(): T {
+  peekLast(): T {
     if (this.isEmpty()) {
       throw new ReferenceError("Empty list");
     }

@@ -9,7 +9,7 @@ class ListNode<T> {
   }
 }
 
-class LinkedList<T> {
+export class LinkedList<T> {
   private length: number;
   private head: Nullable<ListNode<T>>;
   private tail: Nullable<ListNode<T>>;
